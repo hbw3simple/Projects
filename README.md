@@ -1,7 +1,7 @@
 
 <h1 align="center">PROJETOS FEITOS POR MIM!</h1>
 
-![gestao_projetos](https://user-images.githubusercontent.com/116754904/220949852-4d0339b9-2c2c-4907-91b6-dd6b354dfdf8.jpg)
+![Screenshot](https://user-images.githubusercontent.com/116754904/222162470-ee44e2dd-c0d0-45f1-874e-e52cc4fbf772.png)
 
 >Status: finished ⚠️
 
