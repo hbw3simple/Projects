@@ -253,7 +253,7 @@ svg:hover{
 
 @media screen and (max-width: 768px) {
 
-    *{
+    :root{
 
         overflow-x: hidden;
 
@@ -284,9 +284,7 @@ svg:hover{
         display: block;
 
         max-width: 100%;
-        max-height: 196px;
-
-        height: auto;
+        max-height: 176px;
 
     }
     .projects .h2-prjects{
