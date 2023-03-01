@@ -3,7 +3,7 @@
 
 ![gestao_projetos](https://user-images.githubusercontent.com/116754904/220949852-4d0339b9-2c2c-4907-91b6-dd6b354dfdf8.jpg)
 
->Status: Developing ⚠️
+>Status: finished ⚠️
 
 ### Aqui estarão os Projetos feitos por mim!
 
