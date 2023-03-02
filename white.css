@@ -19,16 +19,14 @@
     --06-color-: #8c8c8cb0;
     --txt-color-: #000;
 
-}
-  
-body{
-    
     background: rgb(222, 222, 222);
     background: -moz-linear-gradient(90deg, rgba(222, 222, 222, 1) 30%, rgba(166, 166, 166, 1) 50%, rgba(222, 222, 222, 1) 70%);
     background: -webkit-linear-gradient(90deg, rgba(222, 222, 222, 1) 30%, rgba(166, 166, 166, 1) 50%, rgba(222, 222, 222, 1) 70%);
     background: linear-gradient(90deg, rgba(222, 222, 222, 1) 30%, rgba(166, 166, 166, 1) 50%, rgba(222, 222, 222, 1) 70%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dedede", endColorstr="#dedede", GradientType=1);
-    
+
+    transition: .5s;
+
 }
 .main{
 
@@ -54,6 +52,8 @@ header{
 
     background-image: url(mainwhite.jpg);
 
+    transition: .5s;
+
 }
 header li{
 
@@ -72,7 +72,7 @@ header li{
 }
 svg{
 
-    color: var(--01-color-);
+    color: var(--02-color-);
 
     transition: .5s;
 
@@ -245,6 +245,13 @@ svg:hover{
     transition: .5s;
 
 }
+.bnt-projects a{
+
+    text-decoration: none;
+    color: var(--03-color-);
+
+}
+
 /* -------------- */
 /* Responsividade */
 
