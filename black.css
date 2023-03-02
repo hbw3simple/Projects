@@ -17,20 +17,19 @@
     --04-color-: #5B5FA6;
     --05-color-: #ACB0F2;
     --06-color-: #1e20404a;
-    --07-color-: #0e0e1a;
+    --07-color-: #111132;
     --txt-color-: #fff;
 
-}
-  
-body{
-    
     background: rgb(14, 14, 26);
       background: -moz-linear-gradient(90deg, rgba(14, 14, 26, 1) 0%, rgba(30, 32, 64, 1) 50%, rgba(14, 14, 26, 1) 100%);
       background: -webkit-linear-gradient(90deg, rgba(14, 14, 26, 1) 0%, rgba(30, 32, 64, 1) 50%, rgba(14, 14, 26, 1) 100%);
       background: linear-gradient(90deg, rgba(14, 14, 26, 1) 0%, rgba(30, 32, 64, 1) 50%, rgba(14, 14, 26, 1) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0e0e1a", endColorstr="#0e0e1a", GradientType=1);
-    
+
+      transition: .5s;
+
 }
+
 .main{
 
     background-color: var(--01-color-);
@@ -55,6 +54,8 @@ header{
 
     background-image: url(mainblack.png);
 
+    transition: .5s;
+
 }
 header li{
 
@@ -73,7 +74,7 @@ header li{
 }
 svg{
 
-    color: var(--01-color-);
+    color: var(--07-color-);
 
     transition: .5s;
 
@@ -244,6 +245,13 @@ svg:hover{
     background-color: var(--06-color-);
 
     transition: .5s;
+
+}
+
+.bnt-projects a{
+
+    text-decoration: none;
+    color: var(--03-color-);
 
 }
 /* -------------- */
