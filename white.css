@@ -120,7 +120,7 @@ svg:hover{
 
 .sectio-proctjs{
 
-    margin: 5.6rem auto 0 auto;
+    margin: 4rem auto 0 auto;
 
 }
 
@@ -139,10 +139,10 @@ svg:hover{
     height: 100%;
 
     max-width: 800px;
-    max-height: 282px;
+    max-height: 262px;
 
     min-width: 755px;
-    min-height: 260px;
+    min-height: 250px;
 
     border-bottom-left-radius: 55px;
     border-bottom-right-radius: 5px;
