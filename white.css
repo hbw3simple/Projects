@@ -19,6 +19,8 @@
     --06-color-: #8c8c8cb0;
     --txt-color-: #000;
 
+    overflow-x: hidden;
+
     background: rgb(222, 222, 222);
     background: -moz-linear-gradient(90deg, rgba(222, 222, 222, 1) 30%, rgba(166, 166, 166, 1) 50%, rgba(222, 222, 222, 1) 70%);
     background: -webkit-linear-gradient(90deg, rgba(222, 222, 222, 1) 30%, rgba(166, 166, 166, 1) 50%, rgba(222, 222, 222, 1) 70%);
@@ -40,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-     text-align: center;
+    text-align: center;
 
 }
 header{
@@ -51,8 +53,6 @@ header{
     height: 68px;
 
     background-image: url(mainwhite.jpg);
-
-    transition: .5s;
 
 }
 header li{
@@ -259,11 +259,6 @@ svg:hover{
 
 @media screen and (max-width: 768px) {
 
-    :root{
-
-        overflow-x: hidden;
-
-    }
     .projects {
 
       display: flex;
