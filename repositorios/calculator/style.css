@@ -59,6 +59,8 @@ button{
 
     color: #000;
 
+    transition: .5s;
+
 }
 
 footer{
@@ -68,4 +70,18 @@ footer{
     color: white;
     font-style: italic;
 
+}
+@media (max-width:500px) {
+    
+    button{
+
+        width: 35px;
+        height: 35px;
+
+        font-size: 30px;
+
+        transition: .5s;
+
+    }
+    
 }
