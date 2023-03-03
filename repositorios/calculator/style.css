@@ -20,8 +20,9 @@ section{
     
     padding: 15px;
 
-    width: 230px;
-    height: 300px;
+    width: 240px;
+    max-width:240px;
+    mim-width:240px
 
     margin: auto;
 
