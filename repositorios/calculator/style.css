@@ -71,3 +71,15 @@ footer{
     font-style: italic;
 
 }
+@media (max-width: 400px) {
+ 
+    button{
+
+        font-size: 25px;
+
+        width: 35px;
+        height: 35px;
+
+    }
+
+}
