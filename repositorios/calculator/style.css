@@ -1,7 +1,6 @@
 body{
 
     background-color: rgb(70, 142, 236);
-    font: normal 15pt arial;
 
 }
 header{
@@ -13,7 +12,7 @@ header{
 }
 section{
 
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.336);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 
     border-radius: 10px;
@@ -43,10 +42,13 @@ input{
 
     font-size: 35px;
 
+    background-color: rgba(255, 255, 255, 0.088);
     color: #000;
 
 }
 button{
+
+    position: statics;
 
     width: 40px;
     height: 40px;
@@ -55,7 +57,7 @@ button{
 
     margin: 1px;
 
-    background-color: #c0c0c056;
+    background-color: #ffffff42;
     
     border-radius: 12px;
     border: none;
@@ -69,17 +71,5 @@ footer{
 
     color: white;
     font-style: italic;
-
-}
-@media (max-width: 400px) {
- 
-    button{
-
-        font-size: 25px;
-
-        width: 35px;
-        height: 35px;
-
-    }
 
 }
