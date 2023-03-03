@@ -71,14 +71,14 @@ footer{
     font-style: italic;
 
 }
-@media (max-width:500px) {
+@media (max-width:824px) {
     
     button{
 
-        width: 35px;
+        width: 30px;
         height: 35px;
 
-        font-size: 30px;
+        font-size: 28px;
 
         transition: .5s;
 
